@@ -1,0 +1,28 @@
+# Not part of the submission: the DMoney app under test (has real secrets in its .env)
+Dmoney/
+
+# Working notes from building the project (spec, plan, progress ledger)
+docs/
+
+# Generated test user credentials (created by scripts/seed-users.js)
+data/
+
+# Raw k6 data: contains the login tokens of the test users (the HTML report and comparison.md hold the results)
+reports/summary.json
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Dependencies and logs
+node_modules/
+*.log
+
+# Editor, OS and tool folders
+.vscode/
+.idea/
+.claude/
+.superpowers/
+.DS_Store
+Thumbs.db
